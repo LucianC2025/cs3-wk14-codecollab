@@ -1,7 +1,7 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
-from wordcloud import WordCloud
+#pip install wordcloud
 
 # NOTE: for this week's discussion, make an attempt to guess
 # the "question" I was trying to answer with each plot!
@@ -52,5 +52,5 @@ sns.barplot(x='runtime',
             palette='coolwarm')
 plt.title('Netflix Titles with the Longest Runtimes')
 plt.xlabel('Runtime (minutes)')
-plt.ylabel('Title')
+plt.ylabel('Title') 
 plt.savefig('barplot.png', bbox_inches='tight', dpi=200)
